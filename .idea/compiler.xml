@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="java-experiments" />
+        <module name="java-examples (1)" />
+        <module name="java-homeworks (1)" />
+        <module name="java-examples" />
+        <module name="java-homeworks" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="java-course" target="1.5" />
+      <module name="java-examples" target="11" />
+      <module name="java-examples (1)" target="11" />
+      <module name="java-experiments" target="11" />
+      <module name="java-homeworks" target="11" />
+      <module name="java-homeworks (1)" target="11" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
