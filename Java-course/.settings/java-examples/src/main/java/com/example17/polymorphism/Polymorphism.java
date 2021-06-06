@@ -61,7 +61,7 @@ public class Polymorphism {
         System.out.println(animal2.getClass().getName());
         //下转型，超类未必一定是子类，因此需显式声明强制转换，且只有运行时才能知道错误
         Bird bird2 = (Bird) animal2; //强制转换，但animal2不是bird类型，会异常
-        //Bird bird2 = (Bird) obj; 强制转换，不会异常
+        Bird bird3 = (Bird) obj; //强制转换，不会异常
     }
 
     private static void getPolymorphism() {

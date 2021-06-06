@@ -8,7 +8,7 @@ class DangerException extends Exception{
     }
 }
 
-class CargoBoat{
+class  CargoBoat{
     int realContent;
     int maxContent;
     public void setMaxContent(int maxContent){

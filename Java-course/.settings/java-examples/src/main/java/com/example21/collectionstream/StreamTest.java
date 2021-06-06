@@ -28,7 +28,7 @@ public class StreamTest {
         // sorted();
         // sortedReversed();
         // collect();
-        collectGroupingBy2();
+        collectGroupingBy();
     }
 
     /**

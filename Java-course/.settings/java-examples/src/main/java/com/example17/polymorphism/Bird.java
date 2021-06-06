@@ -1,8 +1,12 @@
 package com.example17.polymorphism;
-/**超类必然包括Object类
+/**
+ * 超类必然包括Object类
  * super可以访问所有超类的public成员
  * @author Liusy*/
+interface A{ }
 public class Bird extends Animal implements Flyable {
+
+    A[] a=new A[10];
     private String color;
     public Bird(String name, String color) {
         super(name);

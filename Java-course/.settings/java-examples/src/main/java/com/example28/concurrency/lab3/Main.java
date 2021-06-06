@@ -2,6 +2,7 @@ package com.example28.concurrency.lab3;
 
 class SaleTicket implements Runnable{
     volatile private static int sum = 200;
+
     @Override
     public void run() {
         while (true){

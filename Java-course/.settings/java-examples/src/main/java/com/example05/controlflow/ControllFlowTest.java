@@ -132,10 +132,10 @@ public class ControllFlowTest {
      * for循环
      * 数组未被赋值时，a[i] = null
      * for (int i = 0; i < this.usbs.length; i++){
-     *             if(usbs[i] == null){
-     *                 usbs[i] = usb;
-     *                 break;
-     *             }
+     *      if(usbs[i] == null){
+     *           usbs[i] = usb;
+     *           break;
+     *      }
      * }
      * 比如这个为向数组中填数的操作
      */

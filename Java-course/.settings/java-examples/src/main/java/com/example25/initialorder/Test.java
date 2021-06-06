@@ -3,7 +3,7 @@ package com.example25.initialorder;
 public class Test {
 
     public static void main(String[] args) {
-        // A.getS();
+        A.getS();
         /**
          * A: static block
          * A: static method create()
